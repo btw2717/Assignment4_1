@@ -53,7 +53,7 @@ public class Factorial extends Application {
 					i++;
 				}
 				for (i=1; i<=n; i++) {
-					sum += 2*i-1;
+					sum = 2*i-1;
 				}
 				for (i=2; i<n; i++) {
 					series[i] = series[i-1] + series[i-2];	
