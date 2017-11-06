@@ -11,10 +11,29 @@ import javafx.scene.text.*;
 import java.io.*;
 import java.util.*;
 
+/*
+ * The Factorial class performs three mathematical operations either upon or according to a user-entered integer. The number is prompted for using javafx and is stored as a variable which is then operated upon with different loop methods.
+ * The Factorial class extends Application as a javaFX application which utilizes the start() method rather than the main() method.
+ * @author Sapper
+ * email: email
+ * @version 1.0
+ * created: 5NOV2017
+ */
+
 public class Factorial extends Application {
+	/**
+	 * The main() method is not used in this Application but exists as a backup call to launch.
+	 * @param args Command line arguments passed to the application.
+	 */
 	public static void main(String[] args) {
 		Application.launch(args);
 	}
+
+	/**
+	 * The start() method is the entry point of the application and contains the objects and method calls which read and process the user entry.
+	 * The start() method overrides the native start method of the Application class.
+	 * @param primaryStage constructs a stage object named primaryStage to run the javaFX interface?
+	 */
 
 	@Override
 	public void start(Stage primaryStage) {
